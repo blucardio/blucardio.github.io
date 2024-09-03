@@ -31,19 +31,19 @@ const forkList = {
 // true = Hard forks - uses color(s)
 // false = TTD & extra protocol - uses dark shading
 const statusList = {
-    merge: [
-        ["mergeA", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1.2}],  // Beacon chain launch
-        ["mergeB", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1}],    // Warmup fork (Altair)
-        ["mergeC", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1.8}],  // Merge! No more PoW
-        ["mergeD", true, { teal: 0, green: 0, purple: 100, blue: 0, red: 0 }, {weighting: 1}],    // Withdrawals
-        ["mergeE", true, { teal: 100, green: 0, purple: 0, blue: 0, red: 0 }, {weighting: 1}],    // Distributed validators
-        ["mergeF", false, 60, {weighting: 1}],                                                    // Secret leader election
-        ["mergeG", false, 50, {weighting: 1.1}],                                                  // Per-slot participant selection
-        ["mergeH", false, 50, {weighting: 1}],                                                    // SSF specification
-        ["mergeI", true, { teal: 0, green: 0, purple: 0, blue: 0, red: 0 }, {weighting: 1.1}],    // Implmentation
-        ["mergeJ", false, 20, {weighting: 1.1}],                                                  // Single slot finality (SSF)
-        ["mergeK", true, { teal: 0, green: 0, purple: 0, blue: 10, red: 40 }, {weighting: 1.1}],  // Increase validator count
-        ["mergeL", false, 20, {weighting: 1}],                                                    // Ideal quantum-safe signatures
+    tantangantugas: [
+        ["tantangantugasA", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1.2}],  // Beacon chain launch
+        ["tantangantugasB", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1}],    // Warmup fork (Altair)
+        ["tantangantugasC", true, { teal: 0, green: 100, purple: 0, blue: 0, red: 0 }, {weighting: 1.8}],  // Merge! No more PoW
+        ["tantangantugasD", true, { teal: 0, green: 0, purple: 100, blue: 0, red: 0 }, {weighting: 1}],    // Withdrawals
+        ["tantangantugasE", true, { teal: 100, green: 0, purple: 0, blue: 0, red: 0 }, {weighting: 1}],    // Distributed validators
+        ["tantangantugasF", false, 60, {weighting: 1}],                                                    // Secret leader election
+        ["tantangantugasG", false, 50, {weighting: 1.1}],                                                  // Per-slot participant selection
+        ["tantangantugasH", false, 50, {weighting: 1}],                                                    // SSF specification
+        ["tantangantugasI", true, { teal: 0, green: 0, purple: 0, blue: 0, red: 0 }, {weighting: 1.1}],    // Implmentation
+        ["tantangantugasJ", false, 20, {weighting: 1.1}],                                                  // Single slot finality (SSF)
+        ["mtantangantugasK", true, { teal: 0, green: 0, purple: 0, blue: 10, red: 40 }, {weighting: 1.1}],  // Increase validator count
+        ["tantangantugasL", false, 20, {weighting: 1}],                                                    // Ideal quantum-safe signatures
     ],
     surge: [
         ["surgeA", true, { teal: 66.66, green: 0, purple: 0, blue: 0, red: 0 }, {weighting: 1}],  // Optimistic rollup fraud provers
