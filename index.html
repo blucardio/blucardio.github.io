@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +13,8 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ikopip</title>
-      <link rel="icon" type="image/png" href="ikopip.svg">
+<title>Ethereum Roadmap</title>
+      <link rel="icon" type="image/png" href="ethlogo.png">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" type="text/css" href="position.css">
 <link rel="stylesheet" type="text/css" href="home.css">
@@ -23,30 +24,30 @@
 <div class="container">  
 
 <div class="tabs-container">
- <span id="inprogress"><span style="color:white; font-weight: normal;">Next Upgrade</span><br><a href="#pectra sticky" style= "color:#F1A196; text-decoration:none;">ikopip</span></a>
-  <a href="https://ikopip.github.io/" style="background: rgba(255, 255, 255, 0.1);" class="tab"><i class="fas fa-home"></i> <span class="tooltip">Home</span></a>
+ <span id="inprogress"><span style="color:white; font-weight: normal;">Next Upgrade</span><br><a href="#pectra sticky" style= "color:#F1A196; text-decoration:none;">Prague-Electra</span></a>
+  <a href="https://ethroadmap.com/" style="background: rgba(255, 255, 255, 0.1);" class="tab"><i class="fas fa-home"></i> <span class="tooltip">Home</span></a>
    <!-- <a href="https://ethroadmap.com/posts.html" class="tab"><i class="fas fa-newspaper"></i><span class="tooltip">Posts</span></a>  -->
-  <a href="https://wa.me/628999587888" class="tab"><i class="fas fa-comment-dots"></i><span class="tooltip">Chat</span></a>
+  <a href="https://ethroadmap.com/chatroom.html" class="tab"><i class="fas fa-comment-dots"></i><span class="tooltip">Chat</span></a>
   <span class="tabdivider"></span>
-  <a href="https://ikopip.github.io/tantangantugas.html" class="tab"><i class="fas fa-code-branch"></i> <span class="tooltip">Tantangan Tugas</span> </a>
-  <a href="https://ikopip.github.io/surge.html" class="tab"><i class="fas fa-water"></i> <span class="tooltip">Gelombang Harga</span> </a>
-  <a href="https://ikopip.github.io/scourge.html" class="tab"><i class="fas fa-biohazard"></i> <span class="tooltip">Harga Bahaya</span> </a>
-  <a href="https://ikopip.github.io/verge.html" class="tab"><i class="fas fa-square-check"></i><span class="tooltip">Terlewati</span></a>
-  <a href="https://ikopip.github.io/tertulis.html" class="tab"><i class="fas fa-broom"></i><span class="tooltip">Tertulis</span></a>
-  <a href="https://ikopip.github.io/berlayar.html" class="tab"><i class="fas fa-hat-wizard"></i><span class="tooltip">Berlayar</span></a>
+  <a href="https://ethroadmap.com/merge.html" class="tab"><i class="fas fa-code-branch"></i> <span class="tooltip">Merge</span> </a>
+  <a href="https://ethroadmap.com/surge.html" class="tab"><i class="fas fa-water"></i> <span class="tooltip">Surge</span> </a>
+  <a href="https://ethroadmap.com/scourge.html" class="tab"><i class="fas fa-biohazard"></i> <span class="tooltip">Scourge</span> </a>
+  <a href="https://ethroadmap.com/verge.html" class="tab"><i class="fas fa-square-check"></i><span class="tooltip">Verge</span></a>
+  <a href="https://ethroadmap.com/purge.html" class="tab"><i class="fas fa-broom"></i><span class="tooltip">Purge</span></a>
+  <a href="https://ethroadmap.com/splurge.html" class="tab"><i class="fas fa-hat-wizard"></i><span class="tooltip">Splurge</span></a>
  <div class="price-container"> <span id="gasPriceValue"> </span>  <span id="eth-price"> </span> </div>
 
 
 </div>
-<img class="siteLogo" src="ikopip.svg"></img>
+<img class="siteLogo" src="eth-roadmap-logo.png"></img>
 <!--Toggle between views -->
 <!-- <button id="toggleViewButton">+</button> -->
 <div id="toggleLayout">
   <label class="switch">
     <input type="checkbox" id="toggleViewButton">
     <div class="slider round">
-      <div id="sw-simp">Sederhana</div>
-      <div id="sw-det">Terperinci</div>
+      <div id="sw-simp">Simple</div>
+      <div id="sw-det">Detailed</div>
     </div>
   </label>
 </div>
@@ -68,20 +69,20 @@
   <div id="roadmap" style="font-weight: 100;">
     <!-- Each section is clickable and redirects to a new page for more details. -->
     <!-- The Merge -->
-    <div class="section2" onclick="window.location.href='tantangantugas.html';" style='z-index: 10;'>
+    <div class="section2" onclick="window.location.href='merge.html';" style='z-index: 10;'>
       <div class="name-logo">
         <i class="fas fa-code-branch inIcon" style='margin-bottom: 8px;'></i>
-        <h2 style="font-weight: 100;">Tantangan Tugas</h2>  
+        <h2 style="font-weight: 100;">The Merge</h2>  
       </div> 
       <div class="progress-container">
-        <div class="progress-bar" id="tantangantugas-progress2"></div>
+        <div class="progress-bar" id="merge-progress2"></div>
       </div>
     </div>
     <!-- The Surge -->
     <div class="section2" onclick="window.location.href='surge.html';" style='z-index: 9;'>
       <div class="name-logo">
         <i class="fas fa-water"></i>
-        <h2 style="font-weight: 100;">Gelombang Harga</h2>
+        <h2 style="font-weight: 100;">The Surge</h2>
       </div>
       <div class="progress-container">
         <div class="progress-bar" id="surge-progress2"></div>
@@ -91,7 +92,7 @@
     <div class="section2" onclick="window.location.href='scourge.html';"  style='z-index:8;'>
       <div class="name-logo">
         <i class="fas fa-biohazard"></i>
-        <h2 style="font-weight: 100;">Harga Waspada Bahaya</h2>
+        <h2 style="font-weight: 100;">The Scourge</h2>
       </div>
       <div class="progress-container">
         <div class="progress-bar" id="scourge-progress2"></div>
@@ -101,7 +102,7 @@
     <div class="section2" onclick="window.location.href='verge.html';" style='z-index:7;'>
       <div class="name-logo">
         <i class="fas fa-square-check"></i>
-        <h2 style="font-weight: 100;">Lolos Rintangan</h2>
+        <h2 style="font-weight: 100;">The Verge</h2>
       </div>
       <div class="progress-container">
         <div class="progress-bar" id="verge-progress2"></div>
@@ -111,7 +112,7 @@
     <div class="section2" onclick="window.location.href='purge.html';" style='z-index:6;'>
       <div class="name-logo">
         <i class="fas fa-broom"></i>
-        <h2 style="font-weight: 100;">Catatan Peristiwa</h2>
+        <h2 style="font-weight: 100;">The Purge</h2>
       </div>
       <div class="progress-container">
         <div class="progress-bar" id="purge-progress2"></div>
@@ -121,7 +122,7 @@
     <div class="section2" onclick="window.location.href='splurge.html';" style='z-index:5;'>
       <div class="name-logo">
         <i class="fas fa-hat-wizard"></i>
-        <h2 style="font-weight: 100;">Berlayar</h2>
+        <h2 style="font-weight: 100;">The Splurge</h2>
       </div>
       <div class="progress-container">
         <div class="progress-bar" id="splurge-progress2"></div>
@@ -136,22 +137,24 @@
   <div id="roadmap" style="font-weight: 100;">
     <!-- Each section is clickable and redirects to a new page for more details. -->
     <div class="rowGroup">
-      <a href="https://ikopip.github.io/tantangantugas.html" class="sectionLink">
-        <div class="tantangantugas">
+      <a href="https://ethroadmap.com/merge.html" class="sectionLink">
+        <div class="merge">
           <i class="fas fa-code-branch inIcon"></i>
-          <h2 class="sectionTitle hideLinks">Tantangan Tugas</h2>
+          <h2 class="sectionTitle hideLinks">The Merge</h2>
           <div class="goalText">
-             <b>Tujuan:</b> melaksanakan tantangan tugas <b>dengan baik dan benar</b>
+             <b>Goal:</b> have an ideal, simple, robust
+             and decentralized <b>proof-of-stake
+             consensus</b>
           </div>
           <div id="ingap">.<br>.</div>
-          <div class="step" id="tantangantugasA">Meluncurkan <br>Tantangan Tugas ikopip</div>
-          <div class="arrowRight" id="tantangantugas1">
+          <div class="step" id="mergeA">Beacon chain <br>launch</div>
+          <div class="arrowRight" id="merge1">
              <div class="lineH"></div>
              <img class="arrowR" src="arrow.png">
           </div>
-          <div class="step" id="tantangantugasB">Warmup fork <br>(Altair)</div>
-          <div class="lineH" id="tantangantugas2"></div>
-          <div class="arrowUp" id="tantangantugas3">
+          <div class="step" id="mergeB">Warmup fork <br>(Altair)</div>
+          <div class="lineH" id="merge2"></div>
+          <div class="arrowUp" id="merge3">
              <img class="arrowU" src="arrow.png">
              <div class="lineV"></div>
           </div>
@@ -170,33 +173,33 @@
              <div class="lineH"></div>
              <img class="arrowR" src="arrow.png">
           </div>
-          <div class="step" id="tantangantugasH">SSF <br>specification</div>
-          <div class="lineH" id="tantangantugas9"></div>
-          <div class="arrowDown" id="tantangantugas10">
+          <div class="step" id="mergeH">SSF <br>specification</div>
+          <div class="lineH" id="merge9"></div>
+          <div class="arrowDown" id="merge10">
              <div class="lineV"></div>
              <img class="arrowD" src="arrow.png">
           </div>
-          <div class="step" id="tantangantugasI">Implementation</div>
-          <div class="lineH" id="tantangantugas11"></div>
-          <div class="arrowUp" id="tantangantugas12">
+          <div class="step" id="mergeI">Implementation</div>
+          <div class="lineH" id="merge11"></div>
+          <div class="arrowUp" id="merge12">
              <img class="arrowU" src="arrow.png">
              <div class="lineV"></div>
           </div>
-          <div class="mile" id="tantangantugasJ">Single <br>slot finality<br>(SSF)</div>
-          <div class="lineH" id="tantangantugas13"></div>
-          <div class="lineV" id="tantangantugas14"></div>
-          <div class="arrowRight" id="tantangantugas15">
+          <div class="mile" id="mergeJ">Single <br>slot finality<br>(SSF)</div>
+          <div class="lineH" id="merge13"></div>
+          <div class="lineV" id="merge14"></div>
+          <div class="arrowRight" id="merge15">
              <div class="lineH"></div>
              <img class="arrowR" src="arrow.png">
           </div>
-          <div class="step" id="tantangantugasK">Increase <br>validator count</div>
-          <div class="quant" id="tantangantugasL">Ideal quantum-<br>safe signatures</div>
+          <div class="step" id="mergeK">Increase <br>validator count</div>
+          <div class="quant" id="mergeL">Ideal quantum-<br>safe signatures</div>
           <div class="progress-bar" id="merge-progress"></div>
         </div>
       </a>
     </div>
     <div class="rowGroup">
-      <a href="https://ikopip/surge.html" class="sectionLink">
+      <a href="https://ethroadmap.com/surge.html" class="sectionLink">
         <div class="surge">
           <i class="fas fa-water inIcon"></i>
           <h2 class="sectionTitle hideLinks">The Surge</h2>
@@ -250,7 +253,7 @@
       </a>
     </div>
     <div class="rowGroup">
-      <a href="https://ikopip.github.io/scourge.html" class="sectionLink">
+      <a href="https://ethroadmap.com/scourge.html" class="sectionLink">
         <div class="scourge">
           <i class="fas fa-biohazard inIcon"></i>
           <h2 class="sectionTitle hideLinks">The Scourge</h2>
@@ -402,7 +405,7 @@
       </a>
     </div>
     <div class="rowGroup">
-      <a href="https://peluang.eth.limo/purge.html" class="sectionLink">
+      <a href="https://ethroadmap.com/purge.html" class="sectionLink">
         <div class="purge">
           <i class="fas fa-broom inIcon"></i>
           <h2 class="sectionTitle hideLinks">The Purge</h2>
@@ -462,7 +465,7 @@
       </a>
     </div>
     <div class="rowGroup">
-      <a href="https://peluang.eth.limo/splurge.html" class="sectionLink">
+      <a href="https://ethroadmap.com/splurge.html" class="sectionLink">
         <div class="splurge">
           <i class="fas fa-hat-wizard inIcon"></i>
           <h2 class="sectionTitle hideLinks">The Splurge</h2>
@@ -527,70 +530,76 @@
 
 <!-- End New Section-->
 <!-- Execution Layer Timeline -->
-<h1 style="font-weight: 100;">Garis Waktu Tantangan Tugas e530</h1>
+<h1 style="font-weight: 100;">Hard Fork Timeline</h1>
 <div class="timeline-container">
-  <h2 class="timeline-title" style="font-weight: 100;">Lapisan eksekusi Tantangan Tugas e533</h2>
+  <h2 class="timeline-title" style="font-weight: 100;">Execution Layer Hard Forks</h2>
   <ul class="timeline" style="font-weight: 100;">
-	<a href="https://portal.polygon.technology/assets" target="_blank"><li>$32.57</li></a>
+	<a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md" target="_blank"><li>Homestead</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-	<a href="https://kafegunung.github.io/foldersvg.html" target="_blank"><li>$1.00</li></a>
+	<a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md" target="_blank"><li>DAO Fork</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-	<a href="https://polymarket.com/" target="_blank"><li>$2.00</li></a>
+	<a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md" target="_blank"><li>Tangerine Whistle</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-	<a href="https://github.com/bagaimana-caranya-mengelola-margin-dan-target-profit.md" target="_blank"><li>$4.00</li></a>
+	<a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md" target="_blank"><li>Spurious Dragon</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md" target="_blank"><li>$8.00</li></a>
+    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md" target="_blank"><li>Byzantium</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md" target="_blank"><li>$16.00</li></a>
+    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md" target="_blank"><li>Constantinople</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md" target="_blank"><li>$32.00</li></a>
+    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md" target="_blank"><li>Berlin</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md" target="_blank"><li>$64.00</li></a>
+    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md" target="_blank"><li>London</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#shapella sticky"><li id="shanghai">$128.00</li></a>
+    <a href="#shapella sticky"><li id="shanghai">Shanghai</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#dencun sticky"><li id="cancun">$256.00</li></a>
+    <a href="#dencun sticky"><li id="cancun">Cancun</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#pectra sticky"><li id="prague">$512.00</li></a>
+    <a href="#pectra sticky"><li id="prague">Prague</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#osaka sticky"><li id="osaka">$1000.00</li></a>
+    <a href="#osaka sticky"><li id="osaka">Osaka</li></a>
   </ul>
   
 <div class="detailed-timeline">
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">ikopip</span><br>Proyek Kafe Gunung</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Genesis</span><br>July 30, 2015</div>
       <div class="timeline-content">
-        <p>Pada hari ini Senin Paing 2 September 2024 bertepatan dengan block 859430 bitcoin, ikopip dibuat dan dibangun atas nama ekosistem Kafe Gunung. Halaman ini ditulis dan diedit pada nomer 563</p>
+        <p>Ethereum's first block, also known as Frontier, occurred nearly two years after its ideation.</p>
+      </div>
+    </div>
+        <div class="timeline-event">
+      <div class="timeline-date"><span style= "font-weight: bold;">Hack and Fork</span><br>June - July, 2016</div>
+      <div class="timeline-content">
+        <p>A large VC fund (The DAO) crowdsourced by the Ethereum community was hacked. A controversial hard fork was implemented to recover the lost funds.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Equitas $31.73</span><br>Level 1</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">EVM Upgrades</span><br>2016 - 2021</div>
       <div class="timeline-content">
-        <p>Tantangan Tugas target minimal take profit $1.00</p>
+        <p>Six hard forks over five years upgraded the EVM and were independent of the Beacon chain, although a few changes at the end were preparatory.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Ekuitas $35.00</span><br>Level 2</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Shanghai</span><br>Apr 12, 2023</div>
       <div class="timeline-content">
-        <p>Tantangan Tugas target minimal take profit $1.60</p>
+        <p>Enabled validator withdrawals from the Beacon Chain, completing the transition to PoS.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Ekuitas $40.00</span><br>Level 3</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Cancun</span><br>Mar 13, 2024</div>
       <div class="timeline-content">
-        <p>Tantangan Tugas target minimal take profit $3.60</p>
+        <p>Scaled Layer2s through EIP-4844 with Blobs + other auxiliary improvements.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Ekuitas $50.00</span><br>Level 4</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Prague</span><br>End of 2024</div>
       <div class="timeline-content">
-        <p>Tantangan Tugas target minimal take profit $5.00</p>
+        <p>The community is still debating what exactly to include. Could go live at the end of 2024.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Ekuitas $60.00</span><br>Level 5</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Osaka</span><br>End of 2025</div>
       <div class="timeline-content">
-        <p>Tantangan Tugas target minimal take profit $5.00</p>
+        <p>Far out. Who knows! Verkle Trees are getting some love</p>
       </div>
     </div>
     </div><br>
@@ -598,38 +607,38 @@
 </div>
 <!-- Consensus Layer Timeline -->
 <div class="timeline-container">
-  <h2 class="timeline-title" style="font-weight: 100;">Kalimat untuk menjaga fokus dan semangat tetap terkendali. e601</h2>
+  <h2 class="timeline-title" style="font-weight: 100;">Consensus Layer Hard Forks</h2>
   <ul class="timeline" style="font-weight: 100;">
-    <a href="https://github.com/kafegunung/frasa/blob/main/email.md" target="_blank"><li>Tenang</li></a>
+    <a href="https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md" target="_blank"><li>Altair</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="https://github.com/ethereum/consensus-specs/blob/dev/specs/bellatrix/beacon-chain.md" target="_blank"><li>Berfikir</li></a>
+    <a href="https://github.com/ethereum/consensus-specs/blob/dev/specs/bellatrix/beacon-chain.md" target="_blank"><li>Bellatrix</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#shapella sticky"><li id="capella">Menimbang</li></a>
+    <a href="#shapella sticky"><li id="capella">Capella</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#dencun sticky"><li id="deneb">Bertindak</li></a>
+    <a href="#dencun sticky"><li id="deneb">Deneb</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#pectra sticky"><li id="electra">Waspada</li></a>
+    <a href="#pectra sticky"><li id="electra">Electra</li></a>
     <li style="pointer-events: none; background-color: transparent;" class="arrow"><i class="fas fa-arrow-right"></i></li>
-    <a href="#osaka sticky"><li id="funknown">Menyelesaikan</li></a>
+    <a href="#osaka sticky"><li id="funknown">Fulu</li></a>
   </ul>
   <!-- New Detailed Consensus Layer Timeline -->
   <div class="detailed-timeline">
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Kerja Sama</span><br>Efektifitas e618</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Launch</span><br>Dec 1, 2020</div>
       <div class="timeline-content">
-        <p>“Begitu Anda memilih hal yang tepat untuk dikerjakan, dan orang yang tepat untuk diajak bekerja sama, maka bekerjalah sekeras yang Anda bisa.”</p>
+        <p>This marked the beginning of Ethereum's transition to a proof-of-stake consensus mechanism, and the genesis of what is now the consensus layer.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Waspada</span><br>Pengalaman</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Altair</span><br>Oct 27, 2021</div>
       <div class="timeline-content">
-        <p>"Hati memiliki alasan yang tidak diketahui oleh akal budi. --Blaise Pascal</p>
+        <p>The first upgrade to the Beacon Chain. It introduced several improvements, including sync committees.</p>
       </div>
     </div>
     <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">Energi Keseimbangan</span><br>Berkeadilan</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Bellatrix</span><br>Sep 6, 2022</div>
       <div class="timeline-content">
-        <p>Uang adalah penyimpan energi yang dibuat dengan hukum negara dan politik. Untuk memperoleh energi butuh energi.</p>
+        <p>A preparatory upgrade for the Beacon Chain that set the stage for the merge.</p>
       </div>
     </div>
     <div class="timeline-event">
@@ -658,7 +667,7 @@
     </div>
   </div>  
       <div class="timeline-event">
-      <div class="timeline-date"><span style= "font-weight: bold;">F(tbd)</span><br>End of 2025</div>
+      <div class="timeline-date"><span style= "font-weight: bold;">Fulu</span><br>End of 2025</div>
       <div class="timeline-content">
         <p>Far out. Who knows! Verkle Trees are getting some love</p>
       </div>
@@ -937,7 +946,7 @@
   
   
 <div class="timeline-container">
-  <h2 class="timeline-title" id="osaka sticky" style="font-weight: 100;">Osaka-F star</h2>
+  <h2 class="timeline-title" id="osaka sticky" style="font-weight: 100;">Osaka-Fulu</h2>
   <div class="countdown-container">
     <div id="countdown4" style="font-weight: 100; color: #fff;">
       <span class="countdown-time" id="days4" style="font-weight: 100;"></span> days
@@ -1140,8 +1149,8 @@
 	<div class="calculation-box"> <span style="font-weight:bold;"> Restaked Share </span> <div id="restaked">Loading...</div></div>	
 	<div class="calculation-box"> <span style="font-weight:bold;"> Consensus APR </span> <div id="APR">Loading...</div></div>	
 	<div class="calculation-box hazard"> <span style="font-weight:bold;"> L2s at Stage 2</span> <div> Zero</div> <i class="fas fa-exclamation-triangle icon-overlay"></i></div>	
-	<div class="calculation-box"> <span style="font-weight:bold;"> Prysm Share </span> <div> 38% </div></div>	
-	<div class="calculation-box hazard"> <span style="font-weight:bold;"> Geth Share </span> <div> 55% </div><i class="fas fa-exclamation-triangle icon-overlay"></i></div>	
+	<div class="calculation-box"> <span style="font-weight:bold;"> Prysm Share </span> <div> 36% </div></div>	
+	<div class="calculation-box hazard"> <span style="font-weight:bold;"> Geth Share </span> <div> 52% </div><i class="fas fa-exclamation-triangle icon-overlay"></i></div>	
 </div>
 
 <!-- ><p style="color: white; text-decoration: none;">
@@ -1152,15 +1161,15 @@
 
 <footer class="footer">
     <div class="footer-box left">
- <p>Last updated on <span id="last-updated"></span> by <a href="https://twitter.com/kafegunung" style="color:white; text-decoration:underline;" target="_blank" rel="noopener noreferrer">Kafe Gunung</a> & <a href="https://primal.net/evo" style="color:white; text-decoration:underline;" target="_blank" rel="noopener noreferrer">Evo</a></p>
+ <p>Last updated on <span id="last-updated"></span> by <a href="https://twitter.com/tj_keel" style="color:white; text-decoration:underline;" target="_blank" rel="noopener noreferrer">Tjk</a></p>
     </div>
     <div class="footer-box middle">
-        <a href="https://github.com/kafegunung/kafegunung.github.io" target="_blank">
+        <a href="https://github.com/Tjkeel/Ethereum-Roadmap" target="_blank">
             <img src="github.png" alt="GitHub" style="width:30px;height:30px;">
         </a>
     </div>
     <div class="footer-box right">
-        <p>Copyright 2024 Kafe Gunung roadmap</p>
+        <p>Copyright 2024 Ethroadmap</p>
     </div>
 </footer>
 
