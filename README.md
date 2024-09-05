@@ -1,2 +1,2 @@
 # Gergaji
-Gerakan ekonomi raja gaji aman jujur independen
+Gerakan ekonomi rasional gaji akuntabilitas jujur independen
