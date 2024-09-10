@@ -1,6 +1,6 @@
 # Gergaji
 ```
-Gerakan ekosistem restorasi gaji akuntabilitas jaringan inklusif
+Gerakan ekosistem restorasi gaji akuntabilitas jalur inklusif
 ```
 
 # Kafe Gunung 
